@@ -1,0 +1,331 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "arg_soccer_team",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "river",
+              "synonyms": [
+                "river plate",
+                "millonarios"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "boca",
+              "synonyms": [
+                "boca juniors",
+                "bosteros"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "lanus",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "san lorenzo",
+              "synonyms": [
+                "san lorenzo de almagro"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "colón",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "vélez",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "estudiantes",
+              "synonyms": [
+                "bicho"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "chacarita",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "patronato",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "defensa",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "talleres",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "godoy cruz",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "argentinos",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "huracán",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "banfield",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "temperley",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "rosario central",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "atletico tucumán",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "unión",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "racing",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "gimnasia",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "tigre",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "belgrano",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "san martín de san juan",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "arsenal",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "olimpo",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "newell's",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "independiente",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ResumeIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "GetPositionsIntent",
+        "samples": [
+          "give me the positions",
+          "give me updates",
+          "what's the score",
+          "give me the table",
+          "tell me the positions",
+          "show me the positions "
+        ],
+        "slots": []
+      },
+      {
+        "name": "GetStrikers",
+        "samples": [
+          "who are the top strikers",
+          "who is the top scorer",
+          "who are the best players",
+          "who is the top striker",
+          "who is the best player",
+          "which player has scored the most goals"
+        ],
+        "slots": []
+      },
+||
+      {
+        "name": "MyTeamUpdate",
+        "samples": [
+          "tell me about my team",
+          "how did my team do",
+          "what was last result of my team",
+          "my team",
+          "last game",
+          "how did {team} do in the last game",
+          "tell me about {team}",
+          "about my team",
+          "what are the results for my team",
+          "sports update"
+        ],
+        "slots": [
+          {
+            "name": "team",
+            "type": "arg_soccer_team"
+          }
+        ]
+      },
+      {
+        "name": "RememberMyTeam",
+        "samples": [
+          "remember my team is {team}",
+          "my team is {team}",
+          "I'm a fan of {team}",
+          "I love {team}",
+          "I follow {team}",
+          "the best team in the world is {team}"
+        ],
+        "slots": [
+          {
+            "name": "team",
+            "type": "arg_soccer_team"
+          }
+        ]
+      },
+      {
+        "name": "TellMeMyTeam",
+        "samples": [
+          "what is my team",
+          "what's my team",
+          "what's my favorite team",
+          "which team am I following"
+        ],
+        "slots": []
+      },
+      {
+        "name": "WhenXPlaysY",
+        "samples": [
+          "when is {teama} playing {teamb}",
+          "when are {teama} and {teamb} playing",
+          "in which day are  {teama} and {teamb} playing"
+        ],
+        "slots": [
+          {
+            "name": "teama",
+            "type": "arg_soccer_team"
+          },
+          {
+            "name": "teamb",
+            "type": "arg_soccer_team"
+          }
+        ]
+      }
+    ],
+    "invocationName": "soccer now"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "fa_alexa_backend",
+  "version": "1.0.0",
+  "description": "Argentina Soccer Alexa Skill backend",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.131.0",
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "scripts": {
+    "test": "nodemon tester.js",
+    "start": "tester.js"
+  },
+  "author": "Pablo Giudice",
+  "license": "ISC"
+}

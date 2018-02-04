@@ -1,3 +1,5 @@
 *~
 backend/node_modules
 backend/package-lock.json
+lambda/node_modules
+lambda/package-lock.json

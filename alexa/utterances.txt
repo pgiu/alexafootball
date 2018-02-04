@@ -1,0 +1,20 @@
+GetPositionsIntent
+
+show me the positions
+tell me the positions
+give me the table
+what's the score
+give me updates
+give me the positions
+who is winning 
+who is leading
+who are the first teams
+
+GetStrikers
+
+which player has scored the most goals
+who is the best player
+who is the top striker
+who are the best players
+who is the top scorer 
+who are the top strikers

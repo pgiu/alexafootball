@@ -1,0 +1,15 @@
+{
+  "name": "fa_football_frontend",
+  "version": "1.0.0",
+  "description": "Alexa front-end to retrieve the argentina soccer info for alexa",
+  "main": "lambda.js",
+  "scripts": {
+    "test": "nodemon lambda.js"
+  },
+  "author": "Pablo Giudice",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.134.0",
+    "nodemon": "^1.12.1"
+  }
+}
